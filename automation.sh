@@ -6,7 +6,7 @@ git config --global user.name "andranagendra7"
 
 git config --global user.name "andranagendra720@gmail.com"
 
-cp /var/lib/jenkins/workspace/maven_job/target/*.war .
+cp target/*.war .
 
 git add *.war
 
