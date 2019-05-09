@@ -1,8 +1,6 @@
 #!/bin/bash
 git --version
-
 git init
-
 git config --global user.name "andranagendra7"
 
 git config --global user.name "andranagendra720@gmail.com"
