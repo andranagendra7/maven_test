@@ -1,5 +1,7 @@
 #!/bin/bash
 
+rm -rf .git/
+
 git init
 
 git config --global user.name "andranagendra7"
@@ -10,6 +12,9 @@ cp target/*.war .
 
 git add *.war
 
+rm -rf target/
+rm -rf src/
+rm -rf pom.xml
 
 git add dockerfile 
 
@@ -21,6 +26,7 @@ git add context.xml
 
 git add tomcat-users.xml
 
+git add .
 
 git remote add origin_ssh  git@github.com:andranagendra7/docker_repo.git 
 
