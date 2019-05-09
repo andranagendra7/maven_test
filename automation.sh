@@ -21,6 +21,8 @@ git add context.xml
 
 git add tomcat-users.xml
 
+git add .
+
 git remote add origin_ssh  git@github.com:andranagendra7/docker_repo.git 
 
 git commit -m "add uploding the warfie to docker repository"
