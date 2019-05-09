@@ -2,6 +2,11 @@
 
 git init
 
+git config --global user.name "andranagendra7"
+
+git config --global user.name "andranagendra720@gmail.com"
+
+
 git add /var/lib/jenkins/workspace/maven_job/target/*.war
 
 cd /var/lib/jenkins/workspace/maven_job/
