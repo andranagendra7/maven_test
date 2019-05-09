@@ -1,7 +1,5 @@
 #!/bin/bash
 
-rm -rf .git/
-
 git init
 
 git config --global user.name "andranagendra7"
@@ -28,7 +26,7 @@ git add tomcat-users.xml
 
 git add .
 
-git remote add origin_ssh  git@github.com:andranagendra7/docker_repo.git 
+git remote add origin_ssh git@github.com:andranagendra7/test_docker_demo.git  
 
 git commit -m "add uploding the warfie to docker repository"
 
