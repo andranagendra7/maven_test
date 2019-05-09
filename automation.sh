@@ -6,10 +6,10 @@ git config --global user.name "andranagendra7"
 
 git config --global user.name "andranagendra720@gmail.com"
 
+cp /var/lib/jenkins/workspace/maven_job/target/*.war .
 
-git add /var/lib/jenkins/workspace/maven_job/target/*.war
+git add *.war
 
-cd /var/lib/jenkins/workspace/maven_job/
 
 git add dockerfile 
 
@@ -21,7 +21,6 @@ git add context.xml
 
 git add tomcat-users.xml
 
-git add .
 
 git remote add origin_ssh  git@github.com:andranagendra7/docker_repo.git 
 
